@@ -1,7 +1,11 @@
+import Home from "./Pages/Home/Home";
+import SignUp from "./Pages/SignUp/SignUp";
+
 export default function App() {
   return (
     <div className="App">
-      <h1>DRIVEN PLUS</h1>     
+      {/* <Home /> */}
+      <SignUp />I
     </div>
   );
 }
