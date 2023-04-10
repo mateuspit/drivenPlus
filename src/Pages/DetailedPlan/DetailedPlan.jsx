@@ -3,16 +3,10 @@ import logoplanone from "../../assets/img/planone.png";
 import logoplantwo from "../../assets/img/plantwo.png";
 import logoplanthree from "../../assets/img/planthree.png";
 
-export default function Options() {
+export default function DetailedPlan() {
     return (
         <MobileContainer>
-            {/* <DrivenLogoImage src={DrivenLogo} alt="Logo" />
-            <LoginForm>
-                <StandartInput type="email" placeholder="E-mail"/>
-                <StandartInput type="password" placeholder="Senha"/>
-                <StandarButton>Entrar</StandarButton>
-            </LoginForm>
-            <LoginSignUpFooterText>Não possuí uma conta? Cadastre-se</LoginSignUpFooterText> */}
+            <DrivenLogoImage src="https://svgshare.com/i/dSP.svg" alt="Logo" /> 
             <PlanTitle>Escolha seu Plano</PlanTitle>
             <SlotPlan>
                 <PlanImg src={logoplanone} alt="plan type" />
@@ -29,6 +23,12 @@ export default function Options() {
         </MobileContainer>
     );
 }
+
+const DrivenLogoImage = styled.img`
+    width: 299px;
+    margin-top: 135px;
+    margin-bottom: 84px;
+`;
 
 const PlanPrice = styled.p`
     font-family: 'Roboto';
